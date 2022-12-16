@@ -27,7 +27,7 @@ resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.vpc2.id
 
   tags = {
-    Name = "igwtag"
+    Name = "igw"
   }
 }
 resource "aws_route_table_association" "a" {
